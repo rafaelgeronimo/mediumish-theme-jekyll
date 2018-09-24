@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Quick Start Guide"
-author: sal
+author: rafael
 categories: [ Jekyll, tutorial ]
 image: assets/images/12.jpg
-featured: true
+featured: false
 hidden: true
 ---
 
