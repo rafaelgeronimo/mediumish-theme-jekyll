@@ -1,7 +1,11 @@
 test:  
   override:
     - "true"
-    
+
+dependencies:
+  post:
+    - bundle exec jekyll build
+
 deployment:
   production:
     branch: master
