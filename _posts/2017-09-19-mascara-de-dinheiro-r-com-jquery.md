@@ -2,10 +2,10 @@
 layout: post
 title: "Máscara de dinheiro (R$) com jQuery"
 author: rafael
-categorie: [jquery, javascript, tutorial]
+categories: [jquery, javascript, tutorial]
 image: assets/images/2017/09/19/01.jpg
 featured: true
-hidden: true
+hidden: false
 ---
 
 Há ocasiões em que o desenvolvedor web deverá tratar a forma como os números serão inseridos no input, aplicando uma máscara no campo conforme a informação a ser digitada. Por exemplo, um CNPJ apresentado como 12.906.174/0001-05 fica bem mais atraente do que 12906174000105, não é mesmo?
