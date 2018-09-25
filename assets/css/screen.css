@@ -644,3 +644,11 @@ License: https://www.wowthemes.net/freebies-license/
  .card .img-fluid {
     width:100%;
 }
+.jumbotron.fortags {
+    background-image: url(../images/jumbotron.jpg);
+}
+.jumbotron.fortags .col-md-4 {
+    
+    color:#fff;
+    width: 0;
+}
