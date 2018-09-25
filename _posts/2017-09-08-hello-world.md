@@ -6,6 +6,7 @@ categories: [carreira, vida]
 image: assets/images/2017/09/08/01.jpg
 featured: false
 hidden: false
+comments: false
 ---
 
 Seja bem vindo ao meu novo blog!

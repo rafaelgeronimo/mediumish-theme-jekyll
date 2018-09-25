@@ -60,13 +60,17 @@
         <!-- Begin Menu -->
         
             <ul class="navbar-nav ml-auto">
-                
+                <li class="nav-item">
+                    <a href="https://rafaelgeronimo.com" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                </li>
+
+
                 {% if page.url == "/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html"><i class="fas fa-newspaper"></i> Blog</a>
                 </li>
                 
                 {% if page.url == "/about.html" %}
@@ -74,7 +78,7 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/about">Sobre</a>
+                <a class="nav-link" href="{{ site.baseurl }}/about"><i class="fas fa-info"></i> Sobre</a>
                 </li>
                 <!--
                 <li class="nav-item">
@@ -89,6 +93,12 @@
                 <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
                 </li>
                 -->
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://linkedin.com/rafaelgeronimo"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://github.com/rafaelgeronimo"><i class="fab fa-github"></i></a>
+                </li>
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://www.facebook.com/rafaelggeronimo/"><i class="fab fa-facebook-f"></i></a>
                 </li>

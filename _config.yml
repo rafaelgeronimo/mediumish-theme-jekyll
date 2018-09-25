@@ -2,10 +2,10 @@
 name: "Rafael Gerônimo"
 description: "Analista de Suporte | Desenvolvedor Web"
 meta_description: "rafael gerônimo, sistemas para internet, javascript, nodejs, pwa"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/log.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-104101890-2'
 disqus: 'rafaelgeronimo'
 mailchimp-list: 'https://rafaelgeronimo.us19.list-manage.com/subscribe/post?u=4b8ccd9c31e3ffa561d975a41&amp;id=bea69d42b0'
 
@@ -19,14 +19,6 @@ authors:
     web: https://rafaelgeronimo.com
     twitter: https://twitter.com/RAFAELGER0NIM0
     description: "Analista de Suporte com formação em desenvolvimento de Sistemas para Internet"
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
 plugins: 
