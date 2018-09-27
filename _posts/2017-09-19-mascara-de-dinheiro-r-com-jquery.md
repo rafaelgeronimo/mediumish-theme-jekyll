@@ -11,9 +11,9 @@ hidden: false
 Há ocasiões em que o desenvolvedor web deverá tratar a forma como os números serão inseridos no input, aplicando uma máscara no campo conforme a informação a ser digitada. Por exemplo, um CNPJ apresentado como 12.906.174/0001-05 fica bem mais atraente do que 12906174000105, não é mesmo?
 
 Para resolver esse tipo de questão utilizando jQuery existem milhares de plugins desenvolvidos pela comunidade. Um deles veio para tratar da máscara do campo quando o assunto é moeda, dinheiro, bufunfa.
-
+<!--
 Exemplo (digite qualquer valor): <input type="text" id="currency" />
-
+-->
 Veja a seguir como usar o plugin Jquery-maskMoney para representar a entrada em moeda brasileira (Real R$):
 
 Inicialmente, precisamos incluir o jQuery ao nosso head com o seguinte código:
@@ -22,7 +22,7 @@ Inicialmente, precisamos incluir o jQuery ao nosso head com o seguinte código:
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
 ```
 
-Em seguida, baixe a versão mais recente do plugin (aqui) e inclua o script à sua página:
+Em seguida, baixe a versão mais recente do plugin ([aqui](https://cdn.rawgit.com/plentz/jquery-maskmoney/master/dist/jquery.maskMoney.min.js)) e inclua o script à sua página:
 
 ```html
 <script src="jquery.maskMoney.min.js" type="text/javascript"></script>
@@ -82,6 +82,3 @@ Código completo:
 ```
 
 Github do plugin: [https://github.com/plentz/jquery-maskmoney](https://github.com/plentz/jquery-maskmoney)
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
