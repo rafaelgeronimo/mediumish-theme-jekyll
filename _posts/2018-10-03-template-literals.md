@@ -34,8 +34,11 @@ console.log(resumo);
 ```
 
 > **Saída:**
->Nome: João Santos
->Idade: 22
+>
+> Nome: João Santos
+>
+> Idade: 22
+>
 >Cidade: Sorocaba
 
 Isso mudou a partir do ES6, com a instrodução do *template literals* (conhecido anteriormente como "template string").
