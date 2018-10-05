@@ -5,7 +5,7 @@ author: rafael
 categories: [javascript, ES6+]
 image: assets/images/2018/10/04/01.png
 featured: true
-hidden: false
+hidden: true
 ---
 O ES6 possui uma proposta muito nobre, que é a de diminuir a repetição de código JavaScript, facilitando a compreensão e eventual manutenção. Para isso, diversas funcionalidades foram implementadas e aos poucos vamos conhecendo, estudando e adotando-as no dia a dia.
 Hoje vamos aprender aqui uma dessas novas funcionalidades.

@@ -4,7 +4,7 @@ title: "Máscara de dinheiro (R$) com jQuery"
 author: rafael
 categories: [jquery, javascript, tutorial]
 image: assets/images/2017/09/19/01.jpg
-featured: true
+featured: false
 hidden: false
 ---
 

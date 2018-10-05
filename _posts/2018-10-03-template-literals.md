@@ -5,7 +5,7 @@ author: rafael
 categories: [javascript, ES6+]
 image: assets/images/2018/10/03/01.png
 featured: true
-hidden: false
+hidden: true
 ---
 Antes do ES6, utilizávamos o operador de concatenação (`+`) para concantenar string:
 
