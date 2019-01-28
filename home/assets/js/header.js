@@ -25,7 +25,7 @@ const rootElement = document.getElementById('header')
                       <a className="nav-link" href="https://rafaelgeronimo.github.io"><i className="fas fa-newspaper"></i> Blog</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="https://rafaelgeronimo.github.io/about"><i className="fas fa-info"></i> Sobre</a>
+                      <a className="nav-link" href="/about"><i className="fas fa-info"></i> Sobre</a>
                     </li>
                     <li className="nav-item">
                     <a target="_blank" className="nav-link" href="https://www.linkedin.com/in/rafaelgeronimo"><i className="fab fa-linkedin-in"></i></a>
