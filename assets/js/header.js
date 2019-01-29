@@ -31,7 +31,7 @@ class Header extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="blog.rafaelgeronimo.com">
+                <a className="nav-link" href="http://blog.rafaelgeronimo.me">
                   <i className="fas fa-newspaper" /> Blog
                 </a>
               </li>

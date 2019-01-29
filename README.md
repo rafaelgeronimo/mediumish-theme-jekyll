@@ -1,3 +1,3 @@
 # rafaelgeronimo.me
 
-https://rafaelgeronimo.com
+https://rafaelgeronimo.me
