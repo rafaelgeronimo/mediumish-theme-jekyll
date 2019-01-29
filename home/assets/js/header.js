@@ -22,7 +22,7 @@ const rootElement = document.getElementById('header')
                       <a href="/home" className="nav-link"><i className="fas fa-home"></i> Home</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="https://rafaelgeronimo.github.io"><i className="fas fa-newspaper"></i> Blog</a>
+                      <a className="nav-link" href="https://rafaelgeronimo.github.io/blog"><i className="fas fa-newspaper"></i> Blog</a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="/about"><i className="fas fa-info"></i> Sobre ·</a>
