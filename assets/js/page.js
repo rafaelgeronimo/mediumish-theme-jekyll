@@ -72,14 +72,14 @@ class Page extends React.Component {
                   href="http://www.premierit.com.br/quem_somos"
                   target="_blank"
                 >
-                  PREMIER IT (Quality S.A.)
+                  <strong>PREMIER IT (Quality S.A.)</strong>
                 </a>
                 , prestando serviços para o{" "}
                 <a
                   href="http://www.grupoboticario.com.br/pt/Paginas/Inicial.aspx"
                   target="_blank"
                 >
-                  Grupo Boticário
+                  <strong>Grupo Boticário</strong>
                 </a>
                 .{" "}
               </p>
