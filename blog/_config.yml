@@ -1,0 +1,42 @@
+# Site
+name: "Rafael Gerônimo"
+description: "Analista de Suporte | Desenvolvedor Web"
+meta_description: "rafael gerônimo, sistemas para internet, javascript, nodejs, pwa"
+logo: 'assets/images/log.png'
+favicon: 'assets/images/logo.png'
+baseurl: 
+google_analytics: 'UA-104101890-2'
+disqus: 'rafaelgeronimo'
+mailchimp-list: 'https://rafaelgeronimo.us19.list-manage.com/subscribe/post?u=4b8ccd9c31e3ffa561d975a41&amp;id=bea69d42b0'
+
+# Authors
+authors:
+  rafael:
+    name: rafael
+    display_name: Rafael Gerônimo
+    gravatar: c88226d6be27bfc4c132098acc5f4d64
+    email: contato@rafaelgeronimo.com
+    web: https://rafaelgeronimo.com
+    twitter: https://twitter.com/RAFAELGER0NIM0
+    description: "Analista de Suporte com formação em desenvolvimento de Sistemas para Internet"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
