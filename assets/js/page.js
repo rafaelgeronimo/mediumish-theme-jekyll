@@ -79,7 +79,7 @@ class Page extends React.Component {
                   href="http://www.grupoboticario.com.br/pt/Paginas/Inicial.aspx"
                   target="_blank"
                 >
-                  <strong>Grupo Boticário</strong>
+                  Grupo Boticário
                 </a>
                 .{" "}
               </p>
