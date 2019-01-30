@@ -7,7 +7,7 @@ class Header extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
         <div className="container pr-0">
-          <a className="navbar-brand" href="/home">
+          <a className="navbar-brand" href="https://rafaelgeronimo.me">
             <img src={this.props.img} />
           </a>
 
@@ -31,7 +31,7 @@ class Header extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://blog.rafaelgeronimo.me">
+                <a className="nav-link" href="/blog">
                   <i className="fas fa-newspaper" /> Blog
                 </a>
               </li>
