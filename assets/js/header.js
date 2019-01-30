@@ -26,12 +26,12 @@ class Header extends React.Component {
           <div className="collapse navbar-collapse" id="navbarMediumish">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a href="/home" className="nav-link">
+                <a href="#" className="nav-link">
                   <i className="fas fa-home" /> Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="http://blog.rafaelgeronimo.me">
+                <a className="nav-link" href="/blog">
                   <i className="fas fa-newspaper" /> Blog
                 </a>
               </li>
