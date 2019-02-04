@@ -8,7 +8,7 @@ class Header extends React.Component {
       <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
         <div className="container pr-0">
           <a className="navbar-brand" href="https://rafaelgeronimo.me">
-            <img src={this.props.img} />
+            Rafael Gerônimo
           </a>
 
           <button
