@@ -84,7 +84,7 @@ class Page extends React.Component {
                 .{" "}
               </p>
               <h4>
-                <a href="http://bit.ly/CurriculoRafael" target="_blank">
+                <a href="https://rafaelgeronimo.com/cvRafaelGeronimo.pdf" target="_blank">
                   <i className="fas fa-align-justify" /> Ver Currículo
                 </a>
               </h4>
