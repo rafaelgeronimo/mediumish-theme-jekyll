@@ -35,11 +35,13 @@ class Header extends React.Component {
                   <i className="fas fa-newspaper" /> Blog
                 </a>
               </li>
+              <!--
               <li className="nav-item">
                 <a className="nav-link" href="/about">
                   <i className="fas fa-info" /> Sobre{" "}
                 </a>
               </li>
+              -->
               <li className="nav-item">
                 <a
                   target="_blank"
