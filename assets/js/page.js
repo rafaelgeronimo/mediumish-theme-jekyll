@@ -56,18 +56,7 @@ class Page extends React.Component {
                 .
               </p>
               <p>
-                Formado em 2018 no curso de{" "}
-                <a
-                  href="https://www.unicesumar.edu.br/ead/cursos-graduacao/sistemas-para-internet/"
-                  target="_blank"
-                >
-                  <em>Sistemas para Internet</em>
-                </a>{" "}
-                pela{" "}
-                <a href="https://www.unicesumar.edu.br/home/" target="_blank">
-                  <strong>Unicesumar</strong>
-                </a>
-                , estou atualmente trabalhando na{" "}
+                Em 2018 ingressei o time da {" "}
                 <a
                   href="http://www.premierit.com.br/quem_somos"
                   target="_blank"
@@ -81,8 +70,25 @@ class Page extends React.Component {
                 >
                   Grupo Boticário
                 </a>
-                .{" "}
+                {" "}, onde fiquei até Outubro de 2019, quando então passei a fazer parte da{" "}
+                <a href="http://vegait.com.br/" target="_blank">
+                  <strong>VEGA I.T.</strong>
+                </a>{" "} como Analista de Suporte.
               </p>
+              <p>
+                Formado em 2018 no curso de{" "}
+                <a
+                  href="https://www.unicesumar.edu.br/ead/cursos-graduacao/sistemas-para-internet/"
+                  target="_blank"
+                >
+                  <em>Sistemas para Internet</em>
+                </a>{" "}
+                pela{" "}
+                <a href="https://www.unicesumar.edu.br/home/" target="_blank">
+                  <strong>Unicesumar</strong>.
+                </a>
+              </p>
+
               <h4>
                 <a href="https://rafaelgeronimo.com/cvRafaelGeronimo.pdf" target="_blank">
                   <i className="fas fa-align-justify" /> Ver Currículo
