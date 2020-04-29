@@ -73,7 +73,7 @@ class Page extends React.Component {
                 {" "}, onde fiquei até Outubro de 2019, quando então passei a fazer parte da{" "}
                 <a href="http://vegait.com.br/" target="_blank">
                   <strong>VEGA I.T.</strong>
-                </a>{" "} como Analista de Suporte.
+                </a>{" "} como Analista de Suporte de TI.
               </p>
               <p>
                 Formado em 2018 no curso de{" "}
