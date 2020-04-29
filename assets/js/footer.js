@@ -9,7 +9,7 @@ class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-sm-6 text-center text-lg-left">
-              Copyright © 2019 - {this.props.name}
+              Copyright © 2020 - {this.props.name}
             </div>
           </div>
         </div>
