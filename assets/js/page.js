@@ -14,8 +14,11 @@ class Page extends React.Component {
               <p>
                 Há mais de 10 anos no mercado de tecnologia, comecei atuando
                 como técnico de informática, assim que obtive essa formação no
-                ano de 2006 pela Escola Técnica Estadual Fernando Prestes, em
-                Sorocaba.
+                ano de 2006 pela{" "}
+                <a href="https://www.etecfernandoprestes.com.br/" target="_blank">
+                Escola Técnica Estadual Fernando Prestes
+                </a>{" "}
+                , em Sorocaba.
               </p>
               <p>
                 Desde lá, passei por outras empresas no papel de suporte
