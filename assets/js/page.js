@@ -88,10 +88,18 @@ class Page extends React.Component {
                 </a>{" "}
                 pela{" "}
                 <a href="https://www.unicesumar.edu.br/home/" target="_blank">
-                  <strong>Unicesumar</strong>.
-                </a>
+                  <strong>Unicesumar</strong>
+                </a>, estou atualmente estudando para me tornar um desenvolvedor Full Stack pela
+                  {" "} 
+                  <a href="https://betrybe.com" target="_blank">
+                    <strong>Trybe</strong>
+                  </a>.
               </p>
-
+              <p>
+                <strong>
+                  Aberto à novas oportunidades.
+                </strong>
+              </p>
               <h4>
                 <a href="https://rafaelgeronimo.com/cvRafaelGeronimo.pdf" target="_blank">
                   <i className="fas fa-align-justify" /> Ver Currículo
