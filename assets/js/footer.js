@@ -4,12 +4,14 @@ const rootElement = document.getElementById("footer");
 class Footer extends React.Component {
   // Use the render function to return JSX component
   render() {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
       <footer className="footer">
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-sm-6 text-center text-lg-left">
-              Copyright © 2020 - {this.props.name}
+              Copyright © { year } - {this.props.name}
             </div>
           </div>
         </div>
