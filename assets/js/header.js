@@ -83,6 +83,22 @@ class Header extends React.Component {
                   <i className="fab fa-whatsapp" />
                 </a>
               </li>
+              <li className="nav-item dark-mode">
+                <a
+                  className="nav-link"
+                  href="#"
+                >
+                  <i className="fas fa-moon" />
+                </a>
+              </li>
+              <li>
+                <a
+                    className="nav-link"
+                    href="#"
+                  >
+                    <i className="far fa-lightbulb" />
+                  </a>
+              </li>
             </ul>
           </div>
         </div>

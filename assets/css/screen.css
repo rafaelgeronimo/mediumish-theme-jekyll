@@ -29,6 +29,9 @@ pre {
   background: #f7fafb;
   border-radius: 3px;
 }
+.dark-mode {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
 .mediumnavigation {
   background: rgba(255, 255, 255, 0.97);
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.15);
