@@ -10,7 +10,7 @@ class Page extends React.Component {
           <div className="mainheading">
             <div className="authorpage">
               <h1 className="sitetitle">{this.props.name}</h1>
-              <p className="lead">Analista de Suporte | Desenvolvedor Web</p>
+              <p className="lead">Desenvolvedor Web em formação pela Trybe</p>
               <p>
                 Há mais de 10 anos no mercado de tecnologia, comecei atuando
                 como técnico de informática, assim que obtive essa formação no
