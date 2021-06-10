@@ -4,6 +4,7 @@ const rootElement = document.getElementById("header");
 class Header extends React.Component {
   // Use the render function to return JSX component
   render() {
+ 
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
         <div className="container pr-0">
@@ -35,9 +36,6 @@ class Header extends React.Component {
                   <i className="fas fa-newspaper" /> Blog
                 </a>
               </li>
-              
-           
-              
               <li className="nav-item">
                 <a
                   target="_blank"
@@ -83,6 +81,25 @@ class Header extends React.Component {
                   <i className="fab fa-whatsapp" />
                 </a>
               </li>
+              <li className="nav-item dark-mode">
+                <a
+                  className="nav-link"
+                  href="#"
+                >
+                  <i className="fas fa-moon" />
+                </a>
+              </li>
+              <li className="nav-item toggle-mode" id="toggle">
+                <i className="indicator"></i>
+              </li>
+              <li className="nav-item light-mode">
+                <a
+                    className="nav-link"
+                    href="#"
+                  >
+                    <i className="far fa-lightbulb" />
+                  </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -97,9 +114,28 @@ function App() {
 
 // Use the ReactDOM.render to show your component on the browser
 ReactDOM.render(<App />, rootElement);
-//Toggle menu
 $(document).ready(function() {
+  //Toggle menu
   $(".navbar-toggler").click(function() {
     $("#navbarMediumish").toggle();
+  });
+  //Toggle mode (dark/light)
+  $(".toggle-mode").click(function() {
+    $("#toggle").toggleClass('active');
+    $("body").toggleClass('active');
+    $(".footer").toggleClass('active');
+    $("#header").toggleClass('active');
+  });
+  $(".light-mode").click(function() {
+    $("#toggle").addClass('active');
+    $("body").addClass('active');
+    $(".footer").addClass('active');
+    $("#header").addClass('active');
+  });
+  $(".dark-mode").click(function() {
+    $("#toggle").removeClass('active');
+    $("body").removeClass('active');
+    $(".footer").removeClass('active');
+    $("#header").removeClass('active');
   });
 });

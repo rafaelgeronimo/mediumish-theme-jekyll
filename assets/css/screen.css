@@ -4,6 +4,18 @@ Copyright: Sal, WowThemes.net, https://www.wowthemes.net
 Version: 1.0.22 
 License: https://www.wowthemes.net/freebies-license/ 
 */
+body {
+  background: #2b2b2b;
+  color: whitesmoke;
+  transition: all 0.3s;
+}
+body.active {
+  background: #f8f8f8;
+  color: #333;
+}
+#header {
+  background: #333 !important;
+}
 .mainheading {
   padding: 1rem 0rem;
 }
@@ -28,6 +40,9 @@ pre {
   overflow: auto;
   background: #f7fafb;
   border-radius: 3px;
+}
+.dark-mode {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
 }
 .mediumnavigation {
   background: rgba(255, 255, 255, 0.97);
@@ -223,6 +238,32 @@ span.post-read-more a:hover {
 .dropdown-menu {
   font-size: 0.9rem;
 }
+.toggle-mode {
+  cursor: pointer;
+  display: flex;
+  width: 40px;
+  height: 20px;
+  border-radius: 160px;
+  background: #555;
+  margin-top: 9px;
+  transition: 0.5s;
+  box-shadow: inset 0 4px 40px rgba(0, 0, 0, 0.3),
+              inset 0 4px 4px rgba(0, 0, 0, 0.3),
+              inset 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+.toggle-mode .indicator {
+  margin-left: 0;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to bottom, #999, #444);
+  border-radius: 50%;
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+.toggle-mode.active .indicator {
+  margin-left: 20px;
+}
+
 .mediumnavigation .search-icon {
   margin-left: -40px;
   display: inline-block;
@@ -241,15 +282,20 @@ span.post-read-more a:hover {
   margin-bottom: 1rem;
 }
 .footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.15) !important;
   padding-top: 15px;
   padding-bottom: 12px;
   font-size: 0.8rem;
-  color: rgba(0, 0, 0, 0.44);
-  margin-top: 200px;
-  margin-bottom: 62px;
-  position: relative;
+  color: whitesmoke;
+  position: fixed;
+  width: 100vw;
+  background: #2c2c2c;
+  bottom: 0;
+}
+.footer.active {
   background: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  color: rgba(0, 0, 0, 0.44);
 }
 .link-dark {
   color: rgba(0, 0, 0, 0.8);
